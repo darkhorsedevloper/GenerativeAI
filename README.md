@@ -43,9 +43,19 @@ A term coined by researchers to describe models trained on a broad spectrum of u
 
 ## Steps 
 
-- Creating our lambda function using Python3.11
+- Creating our lambda function using Python3.11 in AWS
+- Create s3 bucket to save the output
+- Set up API Gateway
+  - Add Your Post Route to trigger your lambda function
+  - Add integration 
+- Create dev stage & deploy route
+- Test your dev endpoint in Postman
+  - Add your body in Postman - "Implement Binary Search"
+- Debug any errors using the CloudWatch Logs
+- Add custom Boto3 Layer as *Amazon Bedrock is so new that it does not have the latest version of Boto3 in Lambda*
+- Make sure output file is in s3 bucket & download file 
 
-  ![Lambda Function]()
-Format: ![function ](url)
+
+
 
  
