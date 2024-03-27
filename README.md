@@ -37,5 +37,7 @@ A term coined by researchers to describe models trained on a broad spectrum of u
 
 
 
+# Project 1 - Code Generation Project
 
+- Create a Lambda function incorporating Amazon Bedrock to communicate with your data. 
  
