@@ -39,5 +39,13 @@ A term coined by researchers to describe models trained on a broad spectrum of u
 
 # Project 1 - Code Generation Project
 
-- Create a Lambda function incorporating Amazon Bedrock to communicate with your data. 
+* Creating API Gateway Endpoints to enable us to call AWS as an API Gateway, call the API Gateway using POSTMAN -> Postman will trigger a lambda function that calls the Bedrock API -> receives a response and saves the output to an s3 bucket *
+
+## Steps 
+
+- Creating our lambda function using Python3.11
+
+  ![Lambda Function]()
+Format: ![function ](url)
+
  
